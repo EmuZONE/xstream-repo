@@ -3,7 +3,7 @@
 <p></p>
 <p></p>
 <p><a href="https://github.com/EmuZONE/repo/raw/master/repository.xstream/repository.xstream-1.1.2.zip"/>xStream Repository 1.1.2</p>
-<p><a href="https://github.com/EmuZONE/repo/raw/master/repository.emuzone/repository.emuzone-2.1.8.zip">EmuZONE Repository 1.1.8</p>
+<p><a href="https://github.com/EmuZONE/repo/raw/master/repository.emuzone/repository.emuzone-2.1.8.zip">EmuZONE Repository 1.1.8</p></a>
 <p></p>
 <p></p>
 <b>Audio Plugin</b>
