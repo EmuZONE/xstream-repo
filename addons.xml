@@ -4848,17 +4848,15 @@ With Digi Storage Player you can easily browse through Media files ( music, movi
   </extension>
 </addon>
 
-<addon id="plugin.video.exodus" version="4.1.10" name="Exodus" provider-name="Exodus">
+<addon id="plugin.video.exodus" version="4.1.07" name="Exodus" provider-name="Exodus">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0" />
-		<import addon="repository.emuzone" />
 		<import addon="script.module.exodus" />
-		<import addon="script.exodus.artwork" version="1.0.0" />
-		<import addon="script.exodus.metadata" version="1.0.0" />
-		<import addon="script.module.urlresolver" version="3.0.0" />
+		<import addon="script.exodus.artwork" version="1.0.7" />
+		<import addon="script.exodus.metadata" version="1.0.2" />
+		<import addon="script.module.urlresolver" version="5.0.23" />
 		<import addon="script.module.requests" />
-		<import addon="script.module.metahandler" version="1.0.0" />
-		<import addon="repository.kodinerds" />
+		<import addon="script.module.metahandler" version="3.0.2" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="exodus.py">
 		<provides>video</provides>
@@ -6916,9 +6914,9 @@ provider-name="[COLOR red]YggDraz1l[/COLOR]">
 <addon id="plugin.video.xstream" name="[COLOR white]x[/COLOR][COLOR red]Stream[/COLOR] [COLOR white]Pro[/COLOR]" version="3.5.4" provider-name="EmuZONE">
  <requires>
    <import addon="xbmc.python"                 version="2.14.0"/>
-   <import addon="repository.xstream"          version="1.1.1" />
-   <import addon="script.module.urlresolver"   version="3.0.0"/>
-   <import addon="script.module.metahandler"   version="1.0.0"/>
+   <import addon="repository.xstream"          version="1.1.2" />
+   <import addon="script.module.urlresolver"   version="5.0.23"/>
+   <import addon="script.module.metahandler"   version="3.0.2"/>
    <import addon="script.module.inputstreamhelper" version="0.3.3" optional="true"/>
  </requires>
  <extension point="xbmc.python.pluginsource" library="default.py">
@@ -9885,6 +9883,34 @@ You can clone the project and host it in your own server.
     <website>https://github.com/kjd/idna</website>
     <source>https://github.com/beenje/script.module.idna</source>
     <email>beenje AT gmail.com</email>
+  </extension>
+</addon>
+
+<addon id="script.module.inputstreamhelper"
+       version="0.3.3"
+       name="InputStream Helper"
+       provider-name="emilsvennesson">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+    <import addon="script.module.requests" version="2.9.1"/>
+  </requires>
+  <extension library="lib" point="xbmc.python.module"/>
+  <extension point="xbmc.addon.metadata">
+    <description lang="en_GB">A simple Kodi module that makes life easier for add-on developers relying on InputStream based add-ons and DRM playback.</description>
+    <news>2018.02.21 v0.3.3
+        + Load loop if it's a kernel module (thanks to mkreisl)
+        + Fix legacy Widevine CDM update detection
+        + inputstream_addon is now a public variable
+        + Notify user that ARM64 needs 32-bit userspace
+        + Improve logging
+        + Cosmetics
+    </news>
+    <platform>all</platform>
+    <license>MIT License</license>
+    <source>https://github.com/emilsvennesson/script.module.inputstreamhelper</source>
+    <assets>
+      <icon>resources/icon.png</icon>
+    </assets>
   </extension>
 </addon>
 
