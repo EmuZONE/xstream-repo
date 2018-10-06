@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.kodikrypton.quebec" 
+        name="Kodi Krypton Quebec" 
+		version="1.2.0" 
+		provider-name="Kodi Krypton QC">
+    <extension point="xbmc.addon.repository" name="kodikrypton.quebec">
+        <info compressed="false">http://kodikrypton.quebec/.admin/addons.xml</info>
+        <checksum>http://kodikrypton.quebec/.admin/addons.xml.md5</checksum>
+		<datadir zip="true">http://kodikrypton.quebec/repository</datadir>
+
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="fr">Kodi Krypton Quebec</summary>
+        <description lang="fr">Télécharger et installer des addiciels depuis le dépôt officiel de Kodi Krypton Québec.</description>
+        <summary lang="en">Kodi Krypton QC</summary>
+        <description lang="en">Download and install add-ons from the Official Kodi Krypton QC addon repository.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
