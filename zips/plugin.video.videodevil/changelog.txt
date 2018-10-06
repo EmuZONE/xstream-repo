@@ -1,3 +1,165 @@
+[B]Version 1.7.198[/B]
+
+- Added: analdin
+- Added: plugin logging when kodi debug logging is off
+
+[B]Version 1.7.197[/B]
+
+- Updated: clipsage
+- Updated: desixnxx
+- Updated: porn300
+- Updated: pornomovies
+- Updated: pornoxo
+- Updated: redtube
+- Updated: slutload
+- Updated: spankwire
+- Updated: vmasala
+- Updated: stileproject
+- Updated: sunporno
+- Updated: xvideos
+
+[B]Version 1.7.196[/B]
+
+- Updated: videodevil
+- Fixed: quoting
+
+[B]Version 1.7.195[/B]
+
+- Updated: eporner
+- Fixed: next button
+- Updated: javhihi
+- Fixed: categories
+- Fixed: catcher
+- Added: jav789
+- Added: javbuz
+- Added: letfap
+
+[B]Version 1.7.194[/B]
+
+- Updated: porn300
+- Fixed: videolist
+- Updated: desixnxx
+- Fixed: videolist
+- Updated: vmasala
+- Fixed: catcher
+- Added: referrer for icons
+- Updated: javhihi
+- Fixed: sorting
+
+[B]Version 1.7.193[/B]
+
+- Updated: spankwire
+- Fixed: videolist
+- Updated: vporn
+- Fixed: videolist
+- Updated: sexu
+- Fixed: videolist
+- Fixed: catcher
+
+[B]Version 1.7.192[/B]
+
+- Updated: porn.com
+- Fixed: videolist
+
+[B]Version 1.7.191[/B]
+
+- Removed: faapy
+- Removed: indiangilma
+
+[B]Version 1.7.190[/B]
+
+- Updated: motherless
+- Fixed: videolist
+- Updated: pornhub
+- Fixed: videolist
+- Removed: faapy
+- Removed: indiangilma
+
+[B]Version 1.7.189[/B]
+
+- Updated: xhamster
+- Fixed: next button
+- Fixed: gay section
+- Fixed: shemale section
+- Updated: xvideos
+- Fixed: next button
+
+[B]Version 1.7.188[/B]
+
+- Updated: pornhub
+- Fixed: next button
+
+[B]Version 1.7.187[/B]
+
+- Updated: xhamster
+- Fixed: video list
+- Fixed: categories
+- Updated: redtube
+- Fixed: video list
+
+[B]Version 1.7.186[/B]
+
+- Updated: stileproject
+- Fixed: catcher
+- Added: javhihi
+
+[B]Version 1.7.185[/B]
+
+- Updated: xhamster
+- Fixed: catcher
+
+[B]Version 1.7.184[/B]
+
+- Updated: pornhub
+- Fixed: categories
+- Updated: spankingtube
+- Fixed: catcher
+
+[B]Version 1.7.183[/B]
+
+- Updated: pornhub
+- Fixed: categories
+
+[B]Version 1.7.182[/B]
+
+- Updated: pornhub
+- Fixed: catcher
+
+[B]Version 1.7.181[/B]
+
+- Updated: vmasala
+- Updated: desixnxx
+
+[B]Version 1.7.180[/B]
+
+- Updated: pornomovies
+- Fixed: catcher
+- Updated: pornoxo
+- Fixed: catcher
+
+[B]Version 1.7.179[/B]
+
+- Updated: bitporno
+- Fixed: start page
+
+[B]Version 1.7.178[/B]
+
+- Updated: bitporno
+- Fixed: catcher
+- Fixed: start page
+
+[B]Version 1.7.177[/B]
+
+- Updated: tukif
+- Fixed: catcher
+
+[B]Version 1.7.176[/B]
+
+- Added: CelebsNudeWorld
+- Updated: bitporno
+- Updated: smutindia
+- Updated: stileproject
+
 [B]Version 1.7.175[/B]
 
 - Added: clipsage
@@ -489,7 +651,7 @@ Jarvis
 - Updated: sunporno
 - Fixed: video listing
 - Fixed: catcher
-- Updated: xvideo
+- Updated: xvideos
 - Fixed: video listing
 
 [B]Version 1.7.99[/B]
