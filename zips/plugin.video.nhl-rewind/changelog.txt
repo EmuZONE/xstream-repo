@@ -1,0 +1,88 @@
+Version 0.2.7
+- Fix for Fox Sports (github issue 18 2017.11.03)
+
+Version 0.2.6
+- Fix for MSG Network video listing
+
+Version 0.2.5
+- Fixes for 2017 season - MSG Network, Fox Sports, Sportsnet.ca
+- Remove more unnecessary code.
+
+Version 0.2.4
+- Fix for parser error in Lubuntu 14.04 (also should have fixed this in previous version - D'oh!)
+
+Version 0.2.3
+- Fix for Android (should have fixed this in the previous version)
+
+Version 0.2.2
+- Fix for Mac OS
+
+Version 0.2.1
+- Fix for MSG
+- Fix for Sportsnet.ca
+- Fix for Comcast Sportsnet
+
+Version 0.2.0
+- Fix for Comcast Bay Area
+- Remove a lot of unnecessary code
+
+Version 0.1.9
+- Fix for Android and Mac OS
+
+Version 0.1.8
+- Add requests to dependencies in
+
+Version 0.1.7
+- More Fixes for 2016 - FOX Sports
+
+Version 0.1.6
+- Added videos from all team sites
+- Fix addon.xml
+
+Version 0.1.5
+- Fixes for 2016 - MSG Network, NBC Sports
+
+Version 0.1.4
+- Fix for NHL MLB changeover
+
+Version 0.1.3
+- Fix for 2015 MSG website changes
+
+Version 0.1.2
+- Updated urls for MSG and Comcast
+
+Version 0.1.1
+- Fixes for Fox Sports and SportsNet.ca
+
+Version 0.1.0
+- Added Comcast Sportsnet - Latest NHL Videos
+
+Version 0.0.9
+- Added SportsNet.ca - Latest NHL Videos
+
+Version 0.0.8
+- Added NBC Sports - Latest NHL Videos
+
+Version 0.0.7
+- Added dialog to choose date of full or condensed games.
+- Removed fanart from Fox Sports since it didn't seem to work half the time.
+
+Version 0.0.6
+- Added Fox Sports - Latest NHL Videos
+
+Version 0.0.5
+- Added ESPN - Latest NHL Videos
+
+Version 0.0.4
+- Added Hockey Fights!
+
+Version 0.0.3
+- Added fanart, thumbnails, and icons.
+- Cleaned up menus and removed most unneeded code.
+
+Version 0.0.2
+- Added streams for full and condensed games.
+
+Version 0.0.1
+- Initial Release
+- NHL Network videos only.
