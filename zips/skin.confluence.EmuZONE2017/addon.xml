@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="skin.confluence.EmuZONE2017"
+  version="2.6.0"
+  name="[COLOR lime]Confluence - EmuZONE 2017[/COLOR]"
+  provider-name="[COLOR tan]YggDraz1l[/COLOR]">
+  <requires>
+    <import addon="xbmc.gui" version="5.10.0"/>
+    <import addon="script.artistslideshow" version="1.8.0"/>
+    <import addon="script.favourites" version="6.0.2"/>
+  </requires>
+  <extension
+    point="xbmc.gui.skin"
+    defaultthemename="textures.xbt"
+    debugging="false"
+    effectslowdown="0.75">
+    <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Modifizierte Version des Standard Skins Confluence</summary>
+    <description>25 Shortcuts fuer Videos, 15 fuer Programme und Musik sowie 10 fuer Bilder Addons.  Eine Debug Grafik ist inklusieve. Dieses Skin vereinfacht die Bedienung von Kodi ungemein und sieht dazu einfach klasse aus.</description>
+  	<disclaimer>Durch das Verwenden dieses Skins entstehen keine Nachteile.</disclaimer>
+    <platform>all</platform>
+        <website>http://www.worldofwarcry.de</website>
+  </extension>
+</addon>
