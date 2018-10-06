@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon 
+    id="plugin.program.archiver"
+    name="[COLOR red]XBMC Archiver[/COLOR]"
+	version="1.0.4" 
+    provider-name="[COLOR gold]EmuZONE[/COLOR]">
+    <requires>
+		<import addon="xbmc.python" version="2.24.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="zipper.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary>[COLOR white]XBMC Plugin Archiver[/COLOR]</summary>
+		<description>Mit diesem Programm können sämmtliche AddOns und Plugins in einem Archiv zusammengefügt werden um daraus anschließend eine Repository zu erstellen.</description>
+		<license></license>
+		<language></language>	
+		<source></source>
+		<email></email>
+	</extension>
+</addon>
