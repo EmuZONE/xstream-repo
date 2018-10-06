@@ -9,11 +9,11 @@
         <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">Watch full episodes and clips from your favorite Comedy Central shows.</summary>
-        <description lang="en_GB">Comedy Central brings you the funniest stuff on the planet. Watch hit shows like Workaholics, Tosh.0, The Daily Show with Trevor Noah, Key and Peele @midnight and Broad City, plus cutting-edge stand-up comedy you won't find anywhere else. Head to CC.com for full episodes, exclusives, previews and more.</description>
+        <summary lang="de_DE">Verpasse keine Episode oder TV-Show von Comedy Central.</summary>
+        <description lang="en_GB">Verfolge die Abenteuer der total beklopten New Kids oder erkundige dich was gerade in South Park los ist.</description>
         <platform>all</platform>
         <license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
-        <source>https://github.com/Lunatixz/KODI_Addons/tree/master/plugin.video.comedycentral</source>
+        <source>https://github.com/emuzone/repo/master/plugin.video.comedycentral</source>
         <website>http://www.cc.com/</website>
         <news>v1.0.1[CR]-Added Featured Shows and Increased content size to include All Shows.</news>
         <forum>https://forum.kodi.tv/showthread.php?tid=326986</forum>
