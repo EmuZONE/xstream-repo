@@ -11835,7 +11835,7 @@ If you want to use the generic handling, contact me.
 
 <addon id="script.module.t0mm0.common"
 	     name="t0mm0's common stuff"
-	     version="2.1.1.01"
+	     version="2.1.1"
 	     provider-name="t0mm0">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
