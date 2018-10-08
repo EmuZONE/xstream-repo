@@ -2452,23 +2452,27 @@ Vermisst du deine Lieblingsstation? Kein problem: geh auf www.radio-browser.info
   </extension>
 </addon>
 
-<addon id="plugin.audio.radiofsn" name="[COLOR yellow]Radio FSN: Rock[/COLOR]" version="1.0.0" provider-name="[COLOR lime]EmuZONE[/COLOR]">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.script" library="default.py">
+<addon id="plugin.audio.radiofsn" name="[COLOR red]RADIO FSN[/COLOR]" version="2.0.1" provider-name="[COLOR red]EmuZONE[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>audio</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-       <summary>RadioFSN Online Stream</summary>
-        <description>RadioFSN ist ein rechtsextremes Medienportal aus der Oberpfalz mit bundesweiter Wirkung. FSN wurde 2006 von dem Neonazi Patrick Schroeder gegruendet und 2012 um den Live-TV-Streaming-Kanal FSN.TV erweitert. 2014 untersagte die Bayerische Landeszentrale fuer neue Medien den Streaming-Betrieb wegen fehlender Lizenz. Mittlerweile produziert und streamt FSN jedoch wieder Sendungen. Der Geschaeftsmann Patrick Schroeder ist seit 2004 NPD-Politiker und in der Szene der Freien Kameradschaften aktiv.</description>
-        <platform>all</platform>
-        <language>de</language>
-        <license></license>
-        <website>http://worldofwarcry.de</website>
-        <source>http://github.com/EmuZONE/repo/plugin.audio.radiofsn/</source>
-        <email>emuzone@outlook.com</email>
-    </extension>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Hören macht frei!</summary>
+    <description>Das Kommerzfreie Internet Radio
+
+	Radio FSN - Rock
+	Radio FSN - Balladen
+	Radio FSN - Hardcore
+	Radio FSN - Black Metal
+
+
+	http://www.radio-fsn.de/</description>
+	<website>http://www.radio-fsn.de/</website>
+    <platform>all</platform>
+  </extension>
 </addon>
 
 <addon id="plugin.audio.radioreference"
@@ -4688,29 +4692,19 @@ https://github.com/known-as-bmf/plugin.video.arteplussept
 	</extension>
 </addon>
 
-<addon id="plugin.video.cartoons"
-version="1.0.1"
-name="[COLOR red]Classic Cartoons[/COLOR]"
-provider-name="[COLOR lime]YggDraz1l[/COLOR]">
-<requires>
-  <import addon="xbmc.python" version="2.1.0"/>
-</requires>
-<extension point="xbmc.python.pluginsource" library="main.py">
-  <provides>video</provides>
-</extension>
-<extension point="xbmc.addon.metadata">
-  <summary lang="en">Classic Cartoons and Movies</summary>
-  <description lang="en_GB">Classic Cartoons and Movies.</description>
-  <disclaimer lang="en_GB"></disclaimer>
-  <assets>
-    <icon>icon.png</icon>
-    <fanart>fanart.jpg</fanart>
-    <screenshot>resources\screenshot-01.jpg</screenshot>
-    <screenshot>resources\screenshot-02.jpg</screenshot>
-    <screenshot>resources\screenshot-03.jpg</screenshot>
-  </assets>
-  <news>Updated with latest artwork metadata</news>
-</extension>
+<addon id="plugin.video.classics" name="[COLOR red]Classic Cartoons[/COLOR]" version="2.0.1" provider-name="[COLOR red]EmuZONE[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Kostenlose Zeichentrickfilme</summary>
+    <description></description>
+	<website>http://www.radio-fsn.de/</website>
+    <platform>all</platform>
+  </extension>
 </addon>
 
 <addon id="plugin.video.clipfish.de" name="Clipfish" version="1.1.3" provider-name="bromix">
