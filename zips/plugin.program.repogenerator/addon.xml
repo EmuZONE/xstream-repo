@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon 
     id="plugin.program.repogenerator" 
-    name="[COLOR red]Repository Generator[/COLOR]"
+    name="[COLOR red]XBMC[/COLOR] [COLOR white]Repository Generator[/COLOR]"
 	version="1.2.4" 
     provider-name="[COLOR gold]EmuZONE[/COLOR]">
     <requires>
@@ -12,16 +12,7 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 	<platform>all</platform>
-	<summary>[COLOR lime]Kodi Repository Generator[/COLOR]</summary>
-	<description>Mit dem Kodi Repository Generator kann man
-ganz einfach eine eigene Kodi Repository erstellen !
-Ein Kodi Repository-Addon Beispiel( Rohling )ist mit enthalten !
-Die genaue Anleitung ist im Changelog des Addons zu finden !
-
-Der Kodi Repository Generator ist auf das Addon -
-Kodi Addon Zipper EmuZONE abgestimmt !
-
-Hardware - Software - Kodi - DE
-https://www.facebook.com/groups/emuzone/</description>	
+	<summary>[COLOR white]XBMC Repository Generator[/COLOR]</summary>
+	<description>Mit diesem AddOn erstellt man im Handumdrehen seine eigene Repository und hat somit permanenten Zugriff auf seine XBMC Plugins. Wie oft war eine Repo nicht erreichbar oder wurde einfach geschlossen? Nun hast Du das Ruder in der Hand...</description>	
 	</extension>
 </addon>
