@@ -2364,9 +2364,9 @@ No Station Such Dedication
 </addon>
 
 <addon id="plugin.audio.rac"
-version="2.3.5"
-name="[COLOR red]RAC Music Libary[/COLOR]"
-provider-name="EmuZONE - [COLOR black]THE[/COLOR] [COLOR white]FOURTH[/COLOR] [COLOR red]REICH[/COLOR]">
+version="2.3.6"
+name="[COLOR red]R.A.C.[/COLOR][COLOR white] Musik Bibliothek[/COLOR]"
+provider-name="EmuZONE - [COLOR darkgrey]THE[/COLOR] [COLOR white]FOURTH[/COLOR] [COLOR red]REICH[/COLOR]">
 <requires>
   <import addon="xbmc.python" version="2.1.0"/>
 </requires>
@@ -2377,19 +2377,14 @@ provider-name="EmuZONE - [COLOR black]THE[/COLOR] [COLOR white]FOURTH[/COLOR] [C
   <summary lang="de">Rock Against Communism!</summary>
   <description lang="de_DE">Eine ständig wachsende Bibliothek bester Rechtsrock Musik. Bitte bleibt trotz unseres Angebotes Fair und unterstützt die Bands durch Kauf ihrer Alben.</description>
   <description lang="de_DE">Wir empfehlen einen Bezug über folgende Lieferanten [COLOR red]PC-Records[/COLOR] oder [COLOR red]OPOS-Records[/COLOR] Diese Shops sind Seriös und die Bestellte Ware kommt an...</description>
-  <disclaimer lang="de_DE">Neue Alben hinzugefügt.</disclaimer>
-  <disclaimer lang="de_DE"></disclaimer>
-  <disclaimer lang="de_DE">* Uwocaust und alte Freunde</disclaimer>
-  <disclaimer lang="de_DE">* Under the Black Sun</disclaimer>
-  <disclaimer lang="de_DE">* Landser</disclaimer>
-  <disclaimer lang="de_DE">* Stahlgewitter</disclaimer>
-  <disclaimer lang="de_DE"></disclaimer>
+  <disclaimer lang="de_DE">Unterstützt die Bands durch den Kauf ihrer Tonträger, seine Kameraden beklaut man nicht!</disclaimer>
   <disclaimer lang="de_DE">Album Anfragen werden bitte in unseremForum gestellt: http://worldofwarcry.de/board</disclaimer>
   <assets>
     <icon>icon.png</icon>
     <fanart>fanart.jpg</fanart>
   </assets>
-  <news>Neue Alben integriert...</news>
+  <news>Inhalt: 224 Alben</news>
+  <source>https://github.com/emuzone/plugin.audio.rac</source>
 </extension>
 </addon>
 
@@ -2518,6 +2513,31 @@ Vermisst du deine Lieblingsstation? Kein problem: geh auf www.radio-browser.info
         <forum>http://forum.xbmc.org/showthread.php?</forum>
         <website>http://www.radioteddy.de/</website>
     </extension>
+</addon>
+
+<addon id="plugin.audio.radioworld"
+version="1.0.1"
+name="[COLOR red]The Radio-World[/COLOR]"
+provider-name="[COLOR lime]YggDraz1l[/COLOR]">
+<requires>
+  <import addon="xbmc.python" version="2.1.0"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>audio</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Offizielles EmuZONE Radio</summary>
+  <description lang="en_GB">Dieses AddOn beinhaltet eine riesige Auswahl an Online Radio Stationen frei Empfagbarer sowie Kostenpfichtigen Sendern. Du brauchst dafuer naturlich nichts bezahlen.</description>
+  <disclaimer lang="en_GB"></disclaimer>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+    <screenshot>resources\screenshot-01.jpg</screenshot>
+    <screenshot>resources\screenshot-02.jpg</screenshot>
+    <screenshot>resources\screenshot-03.jpg</screenshot>
+  </assets>
+  <news>Updated with latest artwork metadata</news>
+</extension>
 </addon>
 
 <addon id="plugin.audio.radio_de" name="Radio" version="2.3.2" provider-name="Tristan Fischer (sphere@dersphere.de)">
