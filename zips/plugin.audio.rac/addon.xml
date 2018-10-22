@@ -9,17 +9,15 @@ provider-name="EmuZONE - [COLOR darkgrey]THE[/COLOR] [COLOR white]FOURTH[/COLOR]
 <extension point="xbmc.python.pluginsource" library="main.py">
   <provides>audio</provides>
 </extension>
+  <summary>Musik Alben Sammlung</summary>
 <extension point="xbmc.addon.metadata">
   <summary lang="de">Rock Against Communism!</summary>
-  <description lang="de_DE">Eine ständig wachsende Bibliothek bester Rechtsrock Musik. Bitte bleibt trotz unseres Angebotes Fair und unterstützt die Bands durch Kauf ihrer Alben.</description>
-  <description lang="de_DE">Wir empfehlen einen Bezug über folgende Lieferanten [COLOR red]PC-Records[/COLOR] oder [COLOR red]OPOS-Records[/COLOR] Diese Shops sind Seriös und die Bestellte Ware kommt an...</description>
-  <disclaimer lang="de_DE">Unterstützt die Bands durch den Kauf ihrer Tonträger, seine Kameraden beklaut man nicht!</disclaimer>
-  <disclaimer lang="de_DE">Album Anfragen werden bitte in unseremForum gestellt: http://worldofwarcry.de/board</disclaimer>
-  <assets>
+  <description lang="de_DE">Eine ständig wachsende Bibliothek bester Rechtsrock Musik. Bitte bleibt trotz unseres angebotes Fair und unterstützt die Bands durch Kauf ihrer Alben. Besucht dafür die Web Shops von PC-Records oder Opos-Records. Dort erhaltet ihr ein großes Angebot diverser Tonträger zu fairen Konditionen.</description>
+  <disclaimer lang="de_DE">Gutmenschen Aufgepasst! Die Lyric der hier angebotenen Musik kann zu schweren Schäden am Büßerkult und der Ersatzreligion von alleiniger Schuld nachsich ziehen.</disclaimer>
+<assets>
     <icon>icon.png</icon>
     <fanart>fanart.jpg</fanart>    
   </assets>
-  <news>Inhalt: 224 Alben</news>
-  <source>https://github.com/emuzone/plugin.audio.rac</source>
+  <news>Alle Streams nun in 320kBit...</news>
 </extension>
 </addon>
