@@ -2,7 +2,7 @@
 <addon id="plugin.audio.rac"
 version="2.3.6"
 name="[COLOR red]R.A.C.[/COLOR][COLOR white] Musik Bibliothek[/COLOR]"
-provider-name="[COLOR darkgrey]THE[/COLOR] [COLOR white]FOURTH[/COLOR] [COLOR red]REICH[/COLOR]">
+provider-name="EmuZONE - [COLOR darkgrey]THE[/COLOR] [COLOR white]FOURTH[/COLOR] [COLOR red]REICH[/COLOR]">
 <requires>
   <import addon="xbmc.python" version="2.1.0"/>
 </requires>
@@ -12,12 +12,12 @@ provider-name="[COLOR darkgrey]THE[/COLOR] [COLOR white]FOURTH[/COLOR] [COLOR re
   <summary>Musik Alben Sammlung</summary>
 <extension point="xbmc.addon.metadata">
   <summary lang="de">Rock Against Communism!</summary>
-  <description lang="de_DE">Eine ständig wachsende Bibliothek bester Rechtsrock Musik. Bitte bleibt trotz unseres angebotes Fair und unterstützt die Bands durch Kauf ihrer Alben. Besucht dafür die Web Shops von PC-Records oder Opos-Records. Dort erhaltet ihr ein großes Angebot diverser Tonträger zu fairen Konditionen.</description>
+  <description lang="de_DE">Eine ständig wachsende Bibliothek bester Rechtsrock Musik. Bitte bleibt trotz unseres angebotes Fair und unterstützt die Bands durch Kauf ihrer Alben. Besucht dafür die Web Shops von PC-Records oder Opos-Records.</description>
   <disclaimer lang="de_DE">Gutmenschen Aufgepasst! Die Lyric der hier angebotenen Musik kann zu schweren Schäden am Büßerkult und der Ersatzreligion von alleiniger Schuld nachsich ziehen.</disclaimer>
 <assets>
     <icon>icon.png</icon>
     <fanart>fanart.jpg</fanart>    
   </assets>
-  <news>Alle Streams nun in 320kBit...</news>
+  <news>Neue Alben integriert...</news>
 </extension>
 </addon>

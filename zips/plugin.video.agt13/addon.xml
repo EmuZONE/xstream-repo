@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.agt13" name="[COLOR blue]AGT13[/COLOR][COLOR white] XX[/COLOR]" version="2.0.18" provider-name="[COLOR white]Annik[/COLOR][COLOR blue]ANAL[/COLOR]">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Nackte Fotzen durchgefickt</summary>
+        <description>Annika Graenert macht die Beine breit und zeigt geile Fotzen bei ihrer Pflicht... Maul zu und Beine breit!</description>
+        <disclaimer>The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+    <platform>all</platform>
+    </extension>
+</addon>
