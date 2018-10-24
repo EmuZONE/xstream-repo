@@ -2364,7 +2364,7 @@ No Station Such Dedication
 </addon>
 
 <addon id="plugin.audio.rac"
-version="2.3.6"
+version="2.3.7"
 name="[COLOR red]R.A.C.[/COLOR][COLOR white] Musik Bibliothek[/COLOR]"
 provider-name="EmuZONE - [COLOR darkgrey]THE[/COLOR] [COLOR white]FOURTH[/COLOR] [COLOR red]REICH[/COLOR]">
 <requires>
@@ -2373,18 +2373,16 @@ provider-name="EmuZONE - [COLOR darkgrey]THE[/COLOR] [COLOR white]FOURTH[/COLOR]
 <extension point="xbmc.python.pluginsource" library="main.py">
   <provides>audio</provides>
 </extension>
+  <summary>Musik Alben Sammlung</summary>
 <extension point="xbmc.addon.metadata">
-  <summary lang="de">Rock Against Communism!</summary>
-  <description lang="de_DE">Eine ständig wachsende Bibliothek bester Rechtsrock Musik. Bitte bleibt trotz unseres Angebotes Fair und unterstützt die Bands durch Kauf ihrer Alben.</description>
-  <description lang="de_DE">Wir empfehlen einen Bezug über folgende Lieferanten [COLOR red]PC-Records[/COLOR] oder [COLOR red]OPOS-Records[/COLOR] Diese Shops sind Seriös und die Bestellte Ware kommt an...</description>
-  <disclaimer lang="de_DE">Unterstützt die Bands durch den Kauf ihrer Tonträger, seine Kameraden beklaut man nicht!</disclaimer>
-  <disclaimer lang="de_DE">Album Anfragen werden bitte in unseremForum gestellt: http://worldofwarcry.de/board</disclaimer>
-  <assets>
+  <summary lang="de">Musik Streaming Dienst</summary>
+  <description lang="de_DE">Eine ständig wachsende Bibliothek bester Rechtsrock Musik. Bitte bleibt trotz unseres angebotes Fair und unterstützt die Bands durch Kauf ihrer Alben. Besucht dafür die Web Shops von PC-Records oder Opos-Records.</description>
+  <disclaimer lang="de_DE">Gutmenschen Aufgepasst! Die Lyric der hier angebotenen Musik kann zu schweren Schäden am Büßerkult und der Ersatzreligion von alleiniger Schuld nachsich ziehen.</disclaimer>
+<assets>
     <icon>icon.png</icon>
     <fanart>fanart.jpg</fanart>
   </assets>
-  <news>Inhalt: 224 Alben</news>
-  <source>https://github.com/emuzone/plugin.audio.rac</source>
+  <news>Neue Alben integriert...</news>
 </extension>
 </addon>
 
@@ -4505,6 +4503,21 @@ adulthideout@yandex.com[/COLOR]
 		<email></email>
 		<mainsource>https://github.com/Vashiel/repository.adulthideout</mainsource>
 		<source></source>
+    </extension>
+</addon>
+
+<addon id="plugin.video.agt13" name="[COLOR blue]AGT13[/COLOR][COLOR white] XX[/COLOR]" version="2.0.18" provider-name="[COLOR white]Annik[/COLOR][COLOR blue]ANAL[/COLOR]">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Nackte Fotzen durchgefickt</summary>
+        <description>Annika Graenert macht die Beine breit und zeigt geile Fotzen bei ihrer Pflicht... Maul zu und Beine breit!</description>
+        <disclaimer>The author does not host or distribute any of the content displayed by this addon. The author does not have any affiliation with the content provider.</disclaimer>
+    <platform>all</platform>
     </extension>
 </addon>
 
@@ -9495,6 +9508,31 @@ If for any reason the check of a successful wake-up via ping is not possible or 
   </extension>
 </addon>
 
+<addon id="script.areswizard" name="[COLOR black].[/COLOR] Ares Wizard" provider-name="AresTeam" version="0.0.69">
+<requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.six" version="1.9.0" optional="true"/>
+	<import addon="script.module.arrow" version="0.6.0" optional="true"/>
+	<import addon="script.module.requests" version="2.7.0" optional="true"/>
+  </requires>
+ <extension library="default.py" point="xbmc.python.pluginsource">
+ <provides>executable</provides>
+ </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Ares Wizard - Your one stop for Kodi setup + maintenance</summary>
+    <description lang="en">Ares Wizard</description>
+    <platform>all</platform>
+  </extension>
+  <extension point="kodi.context.item">
+	  <menu id="kodi.core.main">
+		<item library="resources/uploadlog.py">
+		  <label>Upload Kodi Log via Ares Project</label>
+		  <visible>true</visible>
+		</item>
+	  </menu>
+	</extension>
+ </addon>
+
 <addon id="script.artistslideshow" name="Artist Slideshow" version="2.0.8" provider-name="pkscout,ronie">
 	<requires>
 		<import addon="xbmc.python" version="2.19.0"/>
@@ -14074,17 +14112,13 @@ v5.2.14 (2017-01-23)
 <addon id="skin.confluence.mod2018" version="3.1.50" name="[COLOR red]Confluence MOD 2018[/COLOR]" provider-name="[COLOR lime]YggDraz1l[/COLOR]">
 	<requires>
 		<import addon="xbmc.gui" version="5.12.0"/>
-		<import addon="plugin.video.xstream" version="3.4.4"/>
-		<import addon="plugin.video.exodus" version="4.1.07"/>
-		<import addon="weather.yahoo" version="4.3.1"/>
-		<import addon="visualization.spectrum" version="1.1.1"/>
 	</requires>
 	<extension point="xbmc.gui.skin" debugging="false" effectslowdown="1.0">
 		<res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="de_DE">Modded Confluence Skin</summary>
-		<description lang="de_DE">Mehr Addon Plaetze für Video (20) Musik (15) und für Programme (10).</description>
+		<description lang="de_DE">Das beliebte XBMC Thema welches die beste Übersicht und den besten Komfort für Kodi Neulinge bietet. Diese Mod beinhaltet erweiterte Addon Verknüpfungen im Hauptmenü.</description>
 		<platform>all</platform>
 		<license>GNU General Public License version 2</license>
 		<forum>http://forum.kodi.tv/forumdisplay.php?fid=125</forum>
@@ -14092,7 +14126,6 @@ v5.2.14 (2017-01-23)
 		<email/>
 		<source>https://github.com/emuzone/repo/skin.confluence.mod2018</source>
 		<assets>
-			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
 			<screenshot>resources/screenshot-01.jpg</screenshot>
 			<screenshot>resources/screenshot-02.jpg</screenshot>
